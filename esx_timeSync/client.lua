@@ -32,7 +32,7 @@ Citizen.CreateThread(function()
             SetWeatherTypeOverTime(Config.Weather, 15.0)
             Citizen.Wait(15000)
         end
-        Citizen.Wait(10)
+       
         if newWeather == 'XMAS' then
             SetForceVehicleTrails(true)
             SetForcePedFootstepsTracks(true)
